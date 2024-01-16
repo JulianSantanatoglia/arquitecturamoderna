@@ -1,0 +1,170 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Nunito:wght@200;700&family=Open+Sans:wght@300&family=Rethink+Sans:wght@400;500&family=Roboto:wght@100;300;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* INICIO HEADER */
+
+.header__container img {
+    height: 450px;
+    width: 100%;
+}
+.centrar_nav {
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav a:hover {
+    color: violet;
+}
+
+.header__container {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/imagen2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header__container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+}
+
+.titulo-negrita {
+    font-weight: 700;
+}
+
+/* INICIO SECTION */
+
+.grid__container {
+    display: grid;
+    /* grid-template-columns: repeat(2, 2fr); */
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 150px 150px 150px; 
+}
+
+.imagen img {
+    width: 450px;
+    height: 350px;
+}
+
+
+/* INICIO FOOTER */
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__contacto {
+    padding: 15px 0 0 150px;
+}
+.footer__contacto h3 {
+    font-size: 30px;
+}
+.footer__contacto p {
+    font-size: 15px;
+}
+
+.footer__logo {
+    padding-top: 15px;
+    
+}
+
+.footer__redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 150px;
+    padding-top: 15px;
+}
+
+.footer__redes a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer__redes a:hover {
+    color: black;
+}
+
+
+/* NUESTROS SERVICIOS */
+
+.section__info {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.galeria__imagen {
+    padding: 15px;
+    width: 850px;
+    margin: auto;
+}
+
+
+/* INNOVACION */
+
+.innovacion {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+}
+
+.innovacion__contenido h3 {
+    font-weight: 700;
+}
+
+
+/* FORMULARIO CONTACTO */
+
+.contacto__contenido {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 50px 150px 0px 150px;
+}
+
+.contacto__contenido h3 {
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.formulario__contacto {
+    padding: 0 150px 50px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 600px) {
+    .grid__container {
+        grid-template-columns: auto;
+    }
+}
