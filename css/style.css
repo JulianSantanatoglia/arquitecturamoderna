@@ -47,17 +47,17 @@ main {
 }
 
 .grid__container_dos img {
-  width: 400px;
+  width: 350px;
 }
 
 @media (max-width: 860px) {
   .grid__container_dos {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 350px;
   }
   .grid__container img {
-    width: 300px;
+    width: 350px;
   }
 }
 footer {
@@ -201,7 +201,7 @@ footer {
 }
 
 .main__innovacion img {
-  width: 500px;
+  width: 350px;
 }
 
 @media (max-width: 860px) {
@@ -211,10 +211,10 @@ footer {
 }
 @media (max-width: 650px) {
   .main__innovacion {
-    width: 400px;
+    width: 350px;
   }
   .main__innovacion img {
-    width: 400px;
+    width: 350px;
   }
 }
 .innovacion {
