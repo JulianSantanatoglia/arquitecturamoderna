@@ -1,0 +1,28 @@
+.innovacion {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+}
+
+.innovacion__contenido h3 {
+    font-weight: 700;
+}
+
+.innovacion__contenido {
+    padding: 30px;
+}
+
+
+.main__innovacion {
+    display: flex;
+    width: 800px;
+    margin: auto;
+}
+
+.innovacion_container {
+    display: flex;
+}
