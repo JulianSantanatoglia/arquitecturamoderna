@@ -1,37 +1,44 @@
 .main__innovacion {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    // justify-content: center;
     width: 800px;
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+  
 }
 
+.main__innovacion img {
+    width: 500px;
+}
 
+@media (max-width: 860px) {
+    .main__innovacion {
+       width: 600px;
+    }
+}
+@media (max-width: 650px) {
+    .main__innovacion {
+       width: 400px;
+    }
+    .main__innovacion img {
+        width: 400px;
+    }
+}
 
 .innovacion {
-
+    width: 100%;
 }
 
-.innovacion__contenido {
-    padding: 30px;
-    width: 800px;
-    margin: auto;
+// .innovacion__contenido {
+//     width: 100%;
+//     padding: 30px;
+//     margin: auto;
 
-}
+// }
 .innovacion__contenido h3 {
     font-weight: 700;
     padding: 15px;
     margin: auto;
 }
-
-
-
-
-
-// @media (max-width: 769px) {
-//     .innovacion__contenido {
-//         width: 450px;
-//         padding: 15px;
-//     }
-// }
 
