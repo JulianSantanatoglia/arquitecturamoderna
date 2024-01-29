@@ -321,10 +321,8 @@ footer {
   .section__info {
     width: 300px;
   }
-}
-@media (max-width: 1233px) {
-  .section__info p {
-    height: 100%;
+  .galeria__imagen {
+    width: 250px;
   }
 }
 /* FONTS */
