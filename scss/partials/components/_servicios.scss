@@ -1,8 +1,14 @@
+.main_container__dos {
+    width: 350px;
+}
+
+
+
 .grid__container {
     width: 500px;
     height: 100%;
     display: grid;
-    padding-top: 75px;
+    padding-top: 50px;
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
@@ -11,6 +17,11 @@
     margin: auto;
     align-items: center;
 }
+
+.main_container__dos {
+    width: 100%;
+}
+
 .grid__container img {
     width: 350px;
 }
@@ -19,15 +30,13 @@
     .grid__container {
         display: flex;
         flex-direction: column;
-        width: 450px;
-
-
+        width: 350px;
     }
 }
 
 
 .section__info {
-    width: 350px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +50,12 @@
     padding: 15px;
     width: 350px;
     margin: auto;
+}
+
+@media (max-width: 860px) {
+    .section__info {
+       width: 300px;
+    }
 }
 
 

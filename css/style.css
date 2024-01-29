@@ -59,6 +59,9 @@ main {
   .grid__container img {
     width: 350px;
   }
+  .contenido {
+    padding-top: 35px;
+  }
 }
 footer {
   width: 100%;
@@ -201,7 +204,7 @@ footer {
 }
 
 .main__innovacion img {
-  width: 350px;
+  width: 600px;
 }
 
 @media (max-width: 860px) {
@@ -214,16 +217,20 @@ footer {
     width: 350px;
   }
   .main__innovacion img {
-    width: 350px;
+    width: 300px;
   }
 }
 .innovacion {
   width: 100%;
 }
 
+.innovacion__contenido {
+  padding: 45px 15px 35px 15px;
+}
+
 .innovacion__contenido h3 {
   font-weight: 700;
-  padding: 15px;
+  padding: 5px 0 15px 0;
   margin: auto;
 }
 
@@ -261,11 +268,15 @@ footer {
     padding: 15px;
   }
 }
+.main_container__dos {
+  width: 350px;
+}
+
 .grid__container {
   width: 500px;
   height: 100%;
   display: grid;
-  padding-top: 75px;
+  padding-top: 50px;
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
@@ -273,6 +284,10 @@ footer {
   place-items: center;
   margin: auto;
   align-items: center;
+}
+
+.main_container__dos {
+  width: 100%;
 }
 
 .grid__container img {
@@ -283,11 +298,11 @@ footer {
   .grid__container {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 350px;
   }
 }
 .section__info {
-  width: 350px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -302,6 +317,11 @@ footer {
   margin: auto;
 }
 
+@media (max-width: 860px) {
+  .section__info {
+    width: 300px;
+  }
+}
 @media (max-width: 1233px) {
   .section__info p {
     height: 100%;
