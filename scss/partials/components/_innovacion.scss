@@ -1,28 +1,37 @@
-.innovacion {
+.main__innovacion {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: auto;
-    justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 75px;
+    // justify-content: center;
+    width: 800px;
 }
 
-.innovacion__contenido h3 {
-    font-weight: 700;
+
+
+.innovacion {
+
 }
 
 .innovacion__contenido {
     padding: 30px;
-}
-
-
-.main__innovacion {
-    display: flex;
     width: 800px;
+    margin: auto;
+
+}
+.innovacion__contenido h3 {
+    font-weight: 700;
+    padding: 15px;
     margin: auto;
 }
 
-.innovacion_container {
-    display: flex;
-}
+
+
+
+
+// @media (max-width: 769px) {
+//     .innovacion__contenido {
+//         width: 450px;
+//         padding: 15px;
+//     }
+// }
+

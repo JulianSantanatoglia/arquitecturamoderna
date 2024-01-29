@@ -6,3 +6,22 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.portfolio__info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    padding: 0 150px 0 150px;
+
+}
+
+
+@media (max-width: 769px) {
+    .portfolio__info {
+        padding: 15px;
+    }
+}
