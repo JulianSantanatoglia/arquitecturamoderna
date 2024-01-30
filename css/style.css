@@ -243,7 +243,8 @@ footer {
 }
 
 .navbar-nav a:hover {
-  color: violet;
+  color: white;
+  background-color: lightsteelblue;
 }
 
 .galeria__imagen p {
@@ -263,7 +264,7 @@ footer {
   flex-wrap: wrap;
   margin: auto;
   align-items: center;
-  padding: 0 150px 0 150px;
+  padding: 0 100px 0 100px;
 }
 
 @media (max-width: 769px) {
