@@ -49,7 +49,6 @@ main {
   place-items: center;
   margin: auto;
 }
-
 .grid__container_dos img {
   width: 350px;
 }
@@ -82,12 +81,10 @@ footer {
   padding-top: 15px;
   align-items: center;
 }
-
 .footer__contacto h3 {
   font-size: 30px;
   color: white;
 }
-
 .footer__contacto p {
   color: white;
   font-size: 15px;
@@ -112,12 +109,10 @@ footer {
   padding-right: 150px;
   padding-top: 15px;
 }
-
 .footer__redes a {
   text-decoration: none;
   color: #fff;
 }
-
 .footer__redes a:hover {
   color: black;
 }
@@ -151,7 +146,6 @@ footer {
   background-size: cover;
   background-position: center;
 }
-
 .header__container h1 {
   font-size: 40px;
   font-weight: 700;
@@ -159,9 +153,7 @@ footer {
   text-align: center;
   width: 50%;
 }
-
 .header__container img {
-  /* height: 100%; */
   width: 100%;
 }
 
@@ -177,7 +169,6 @@ footer {
   padding-top: 75px;
   align-items: center;
 }
-
 .contacto__contenido h3 {
   font-weight: 700;
   padding-bottom: 35px;
@@ -193,7 +184,6 @@ footer {
 }
 
 .main__contacto {
-  /* width: 1025px; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -205,7 +195,6 @@ footer {
   margin: auto;
   justify-content: center;
 }
-
 .main__innovacion img {
   width: 600px;
 }
@@ -230,7 +219,6 @@ footer {
 .innovacion__contenido {
   padding: 45px 15px 35px 15px;
 }
-
 .innovacion__contenido h3 {
   font-weight: 700;
   padding: 5px 0 15px 0;
@@ -241,8 +229,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-
-.navbar-nav a:hover {
+.centrar_nav a:hover {
   color: white;
   background-color: lightsteelblue;
 }
@@ -289,13 +276,12 @@ footer {
   margin: auto;
   align-items: center;
 }
+.grid__container img {
+  width: 350px;
+}
 
 .main_container__dos {
   width: 100%;
-}
-
-.grid__container img {
-  width: 350px;
 }
 
 @media (max-width: 860px) {

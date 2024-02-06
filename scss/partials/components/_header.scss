@@ -7,19 +7,16 @@
     background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/imagen2.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.header__container h1 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    width: 50%;
-}
-
-.header__container img {
-    /* height: 100%; */
-    width: 100%;
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+        width: 50%;
+    }
+    img {
+        width: 100%;
+    }
 }
 
 .titulo-negrita {

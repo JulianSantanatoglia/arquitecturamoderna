@@ -1,10 +1,10 @@
 .centrar_nav {
     display: flex;
     justify-content: center;
+    a {
+        &:hover {
+            color: white;
+            background-color:lightsteelblue;
+        }
+    }
 }
-.navbar-nav a:hover {
-    color: white;
-    background-color:lightsteelblue;
-}
-
-

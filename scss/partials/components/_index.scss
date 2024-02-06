@@ -21,7 +21,6 @@ main {
 
  .contenido {
      width: 80%;
-    //  justify-content: space-between;
  }
  
  .container__flex {
@@ -40,9 +39,9 @@ main {
     gap: 15px;
     place-items: center;
     margin: auto;
-}
-.grid__container_dos img {
-    width: 350px;
+    img {
+        width: 350px;
+    }
 }
 
 @media (max-width: 860px) {
