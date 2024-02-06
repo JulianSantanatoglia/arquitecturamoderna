@@ -1,6 +1,6 @@
 .header__container {
-    width: 100%;
-    height: 400px;
+    // width: 100%;
+    // height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,9 +8,9 @@
     background-size: cover;
     background-position: center;
     h1 {
-        font-size: 40px;
+        font-size: $fontM;
         font-weight: 700;
-        color: #fff;
+        color: $gray;
         text-align: center;
         width: 50%;
     }

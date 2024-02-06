@@ -1,0 +1,29 @@
+//  MIXINS
+
+@mixin medidas($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin flex($display, $flexdirection, $align){
+    display: $display;
+    flex-direction: $flexdirection;
+    align-items: $align;
+}
+
+// NO PUEDO ENLAZAR LOS MIXINS CON LOS ARCHIVOS CORRESPONDIENTES Y TENGO QUE APLICARLE EL CSS ACA
+
+
+.main_container {
+    @include flex(flex, column, center);
+}
+
+.section__info {
+    @include medidas(150px, 150px);
+}
+
+.header__container {
+    @include medidas(100%, 400px);
+}
+
+
