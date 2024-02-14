@@ -1,3 +1,0 @@
-Sitio 100% responsive
-código de estilos en SASS
-partials, nesting, operador &, variables, mixins, extend, maps
