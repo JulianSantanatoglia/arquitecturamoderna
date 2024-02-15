@@ -116,7 +116,7 @@ main {
 }
 footer {
   width: 100%;
-  background-color: #BABABA;
+  background-color: #5f7f7a;
   display: flex;
   justify-content: space-evenly;
 }
@@ -243,10 +243,16 @@ footer {
   background-color: #90ee90;
   padding: 8px 45px;
 }
+.boton-enviar:hover {
+  background-color: #5f7f7a;
+}
 
 .boton-reset {
   background-color: #f0ffff;
   padding: 8px 16px;
+}
+.boton-reset:hover {
+  background-color: #5f7f7a;
 }
 
 .main__innovacion {
@@ -295,7 +301,7 @@ footer {
 }
 .centrar_nav a:hover {
   color: #eff0eb;
-  background-color: lightsteelblue;
+  background-color: #5f7f7a;
   transition: 0.3s;
 }
 
