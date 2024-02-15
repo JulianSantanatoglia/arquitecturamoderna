@@ -23,6 +23,7 @@ main {
     display: grid;
     align-items: center;
     justify-content: center;
+    padding-bottom: 75px;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     place-items: center;
@@ -84,6 +85,7 @@ main {
 
 
 .contenedor-cards {
+    background-color: #f2f8fd;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
