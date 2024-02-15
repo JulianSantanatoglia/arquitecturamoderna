@@ -3,9 +3,9 @@ main {
     margin: auto;
 }
 
- .main_index {
-    padding: 50px 0 50px 0;
- }
+//  .main_index {
+//     // padding: 50px 0 50px 0;
+//  }
 
  .contenido {
      width: 80%;
@@ -23,7 +23,7 @@ main {
     display: grid;
     align-items: center;
     justify-content: center;
-    padding-bottom: 75px;
+    padding: 75px 0 75px 0;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     place-items: center;
@@ -85,7 +85,7 @@ main {
 
 
 .contenedor-cards {
-    background-color: #f2f8fd;
+    background-color: #dcdcdc;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
