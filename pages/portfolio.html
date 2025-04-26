@@ -6,8 +6,8 @@
     <meta name="description" content="Pagina de portfolio de arquitectura moderna, aca encontraras los proyectos realizados con distintos clientes">
     <!-- CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <!-- ANIMATE CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Portfolio - ArquitecturaModerna</title>
@@ -24,9 +24,9 @@
             </button>
              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link" href="../index.html">Home</a>
                 <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
+                <a class="nav-link active" aria-current="page" href="../pages/portfolio.html">Portfolio</a>
                 <a class="nav-link" href="../pages/innovacion.html">Innovacion</a>
                 <a class="nav-link" href="../pages/contacto.html">Contacto</a>
               </div>
@@ -37,95 +37,126 @@
       <div class="header__container">
           <h1>Nuestro portfolio</h1>
       </div>
-  </header>
+    </header>
 
+    <!-- MAIN -->
+    <main class="portfolio__container">
+        <div class="portfolio__title">
+            <h2>Conoce nuestros proyectos</h2>
+            <p>En ArquitecturaModerna, nuestra pasión por el diseño arquitectónico se refleja en cada detalle de nuestras creaciones. Desde el primer esbozo hasta la entrega final, nos comprometemos a fusionar la estética distintiva con la practicidad y la eficiencia.</p>
+        </div>
 
-    <!-- MAIN  -->
+        <div class="portfolio__slider">
+            <div class="slider__container">
+                <div class="slider__item">
+                    <img src="../img/portfolio/portfolio1.jpg" alt="Proyecto de casa moderna">
+                    <div class="slider__caption">
+                        <h3>Casa Moderna en la Costa</h3>
+                        <p>Diseño contemporáneo con vistas al mar</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="../img/portfolio/portfolio2.jpg" alt="Proyecto de casa moderna">
+                    <div class="slider__caption">
+                        <h3>Residencia Minimalista</h3>
+                        <p>Espacios abiertos y líneas limpias</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="../img/portfolio/portfolio3.jpg" alt="Proyecto de casa moderna">
+                    <div class="slider__caption">
+                        <h3>Villa Contemporánea</h3>
+                        <p>Integración perfecta con el entorno natural</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="../img/portfolio/portfolio4.jpg" alt="Proyecto de casa moderna">
+                    <div class="slider__caption">
+                        <h3>Edificio Residencial</h3>
+                        <p>Arquitectura urbana moderna</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__controls">
+                <button class="slider__button prev">←</button>
+                <button class="slider__button next">→</button>
+            </div>
+        </div>
 
+        <div class="portfolio__grid">
+            <div class="portfolio__item">
+                <img src="../img/portfolio/portfolio5.jpg" alt="Proyecto de casa moderna">
+                <div class="portfolio__overlay">
+                    <h3>Oficinas Corporativas</h3>
+                    <p>Espacios de trabajo innovadores</p>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <img src="../img/portfolio/portfolio6.jpg" alt="Proyecto de casa moderna">
+                <div class="portfolio__overlay">
+                    <h3>Centro Comercial</h3>
+                    <p>Diseño comercial contemporáneo</p>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <img src="../img/portfolio/portfolio7.jpg" alt="Proyecto de casa moderna">
+                <div class="portfolio__overlay">
+                    <h3>Hotel Boutique</h3>
+                    <p>Lujo y comodidad en cada detalle</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer__contacto">
+            <h3>Contactanos</h3>
+            <p>+34 666 666 666</p>
+            <p>arquitecturamoderna@email.com</p>
+        </div>
 
-    <main>
-    <div class="portfolio__info">
-      <h2>Conoce nuestros proyectos</h2>
-       <p> En ArquitecturaModerna, nuestra pasión por el diseño arquitectónico se refleja en cada detalle de nuestras creaciones. Desde el primer esbozo hasta la entrega final, nos comprometemos a fusionar la estética distintiva con la practicidad y la eficiencia.
-        
-        Nuestro enfoque en la arquitectura moderna se traduce en espacios habitables que no solo inspiran, sino que también mejoran la calidad de vida. Ya sea que estemos diseñando una casa familiar, un complejo de apartamentos de lujo o un centro corporativo, priorizamos la innovación, la sostenibilidad y la adaptabilidad a las necesidades cambiantes del mundo contemporáneo.
+        <div class="contenedor__logo"> 
+            <p class="footer__logo"><span class="titulo-negrita">Arquitectura</span>Moderna</p>
+            <p>Todos los derechos reservados &#169;</p>
+        </div>
 
-        
-        ¡Estamos emocionados de colaborar contigo en tu próximo proyecto arquitectónico!</p>
-     </div>
+        <div class="footer__redes">
+            <a href="https://instagram.com">Instagram</a>
+            <a href="https://fb.com">Facebook</a>
+            <a href="https://youtube.com">Youtube</a>
+        </div>
+    </footer>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        // Slider functionality
+        const slider = document.querySelector('.slider__container');
+        const slides = document.querySelectorAll('.slider__item');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        let currentSlide = 0;
 
-    <section class="portfolio__container">
+        function updateSlider() {
+            slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
 
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio1.jpg" alt="primer proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio2.jpg" alt="segundo proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio3.jpg" alt="tercer proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio4.jpg" alt="cuarto proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio5.jpg" alt="quinto proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio6.jpg" alt="sexto proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio7.jpg" alt="septimo proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio8.jpg" alt="octavo proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio9.jpg" alt="noveno proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio10.jpg" alt="decimo proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio11.jpg" alt="decimo primer proyecto de casa moderna">
-      </div>
-      <div class="img-container">
-        <img src="../img/portfolio/portfolio12.jpg" alt="decimo segundo proyecto de casa moderna">
-      </div>
+        prevBtn.addEventListener('click', () => {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            updateSlider();
+        });
 
+        nextBtn.addEventListener('click', () => {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlider();
+        });
 
-    </section>
-  </main>
-
-    
-     <!-- FOOTER -->
-     <footer>
-      <div class="footer__contacto">
-        <h3>Contactanos</h3>
-        <p>+34 666 666 666</p>
-        <p>arquitecturamoderna@email.com</p>
-      </div>
-
-      <div class="contenedor__logo"> 
-        <p class="footer__logo"><span class="titulo-negrita">Arquitectura</span>Moderna</a></p>
-        <p>Todos los derechos reservados &#169;​</p>
-      </div>
-
-      <div class="footer__redes">
-        <a href="https://instagram.com">Instagram</a>
-        <a href="https://fb.com">Facebook</a>
-        <a href="https://youtube.com">Youtube</a>
-      </div>
-    </div>
-  </footer>
-
-
-
-
-
-    <!-- SCRIPT BOOTSTRAP -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        // Auto-slide
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlider();
+        }, 5000);
+    </script>
 </body>
 </html>
